@@ -13,20 +13,23 @@
 </head>
 
 <body>
-    <div class="main-container">
+    <div class="main-container" role="container">
         <img id="icon" src="icon-star.svg" alt="icon">
-        <h1 class="title">How did we do?</h1>
-        <p class="msg">Please let us know how we did with your support request. All feedback is
+        <header>
+            <h1 class="title" role="title">How did we do?</h1>
+        </header>
+        <main>
+        <p class="msg" role="message">Please let us know how we did with your support request. All feedback is
             appreciated to improve our offering!</p>
-        <div class="rate-buttons">
-            <button id="button1">1</button>
-            <button id="button2">2</button>
-            <button id="button3">3</button>
-            <button id="button4">4</button>
-            <button id="button5">5</button>
+        <div class="rate-buttons" role="rate-buttons">
+            <button id="button1" role="button1">1</button>
+            <button id="button2" role="button2">2</button>
+            <button id="button3" role="button3">3</button>
+            <button id="button4" role="button4">4</button>
+            <button id="button5" role="button5">5</button>
         </div>
-        <button id="submitButton">SUBMIT</button>
-
+        <button id="submitButton" role="submit-button">SUBMIT</button>
+        </main>    
     </div>
     <script src="ratingapp.js"></script>
 </body>
